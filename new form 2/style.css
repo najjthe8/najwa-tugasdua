@@ -1,0 +1,51 @@
+*{
+    color: black;
+    padding: 10px;
+}
+body{
+    background: url(jay.jpeg)bottom right no-repeat fixed, 
+    url(jay2.jpeg)no-repeat fixed;
+    background-size:150px 100px, cover; 
+}
+
+table, td, th {
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #ffc3f3;
+}
+
+tr:nth-child(odd) {
+    background: #fcafed ;
+}
+
+td, th {
+    width: 100px;
+}
+
+tr:hover {
+    background: #fe32d6;
+}
+
+a:link{
+    background: #fe32d6;
+    color: aliceblue;
+}
+
+a:active{
+    background: #ffc3f3;
+    color: antiquewhite;
+}
+
+a:visited{
+    background: #fcafed;
+    color: azure;
+}
+
+a:hover{
+    background: #ffc3f3;
+    color: beige;
+}
